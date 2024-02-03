@@ -1,0 +1,18 @@
+.about {
+  display: flex;
+}
+.about__article {
+  width: 90%;
+  height: 75%;
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+
+  background-color: rgba(255, 0, 0, 0.169);
+}
+.article__title {
+  background-color: blue;
+}
+.article__content {
+  display: flex;
+  background-color: blue;
+}

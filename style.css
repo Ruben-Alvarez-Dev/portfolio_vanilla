@@ -8,6 +8,7 @@ header {
   width: 100vw;
   height: 10vh;
   position: fixed;
+  text-align: left;
   top: 0;
   left: 0;
 }
@@ -16,6 +17,7 @@ main {
   height: 100vh;
   margin: 0 auto;
   background-color: darkslategray;
+  text-align: center;
   overflow-y: auto;
 
   scroll-snap-type: y mandatory;
@@ -23,11 +25,18 @@ main {
 main::-webkit-scrollbar {
   display: none;
 }
-
-.element {
+footer {
+  background-color: rgba(211, 169, 0, 0.3);
+  width: 100vw;
+  height: 10vh;
+  position: fixed;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+}
+section {
   width: 95vw;
-  height: 95vh;
-  background-color: rgba(255, 140, 0, 0.2);
+  height: 100vh;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -35,4 +44,27 @@ main::-webkit-scrollbar {
   font-size: 2em;
   color: white;
   scroll-snap-align: center;
+}
+.container {
+  width: 90%;
+  height: 75%;
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  background-color: rgba(250, 235, 215, 0.2);
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.about {
+  background-color: rgba(0, 0, 255, 0.2);
+}
+.projects {
+  background-color: rgba(0, 255, 0, 0.2);
+}
+.training {
+  background-color: rgba(255, 0, 0, 0.2);
+}
+.skills {
+  background-color: rgba(255, 255, 0, 0.2);
 }
