@@ -1,18 +1,21 @@
 .about {
   display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
 }
-.about__article {
+.about__title {
+  background-color: rgba(0, 0, 255, 0.5);
+  margin-top: 15vh;
+}
+.about__container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 255, 0.5);
+  margin-bottom: 15vh;
   width: 90%;
-  height: 75%;
+  height: 60%;
   box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.2);
   border-radius: 15px;
-
-  background-color: rgba(255, 0, 0, 0.169);
-}
-.article__title {
-  background-color: blue;
-}
-.article__content {
-  display: flex;
-  background-color: blue;
 }
