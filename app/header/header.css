@@ -1,0 +1,14 @@
+header {
+  /* background-color: rgba(148, 0, 211, 0.3); */
+  background-image: linear-gradient(
+    to bottom,
+    var(--accent3-color),
+    rgba(0, 0, 0, 0)
+  );
+  width: 100vw;
+  height: 7vh;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  left: 0;
+}

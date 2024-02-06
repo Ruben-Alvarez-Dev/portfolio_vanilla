@@ -1,0 +1,111 @@
+/* Skills Section General Syles */
+.skills__container {
+  display: flex;
+  flex-flow: row;
+}
+
+/* Article Styles in Skills Section*/
+.skills.article__container {
+  background-color: rgba(0, 153, 214, 0.297);
+}
+.skills.article__title {
+  color: var(--accent2-color);
+}
+.skills.article__subtitle {
+  color: var(--accent1-color);
+}
+.skills.article__content {
+  color: var(--accent3-color);
+}
+.skills.article__display {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+}
+
+.display__skills {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(59, 33, 33, 0.2);
+  border-radius: 15px;
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-flow: row nowrap;
+  /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  
+    grid-template-areas:
+      "stack soft"
+      "tech soft";
+     */
+  gap: 2%;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+}
+.display__skills--element {
+  width: 100%;
+
+  /* height: 80%; */
+
+  /* background-color: brown;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 15px; */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.display__skills--element.list {
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  /* padding-left: 10%;
+    padding-right: 10%; */
+  border-radius: 15px;
+  margin: 10px auto;
+  /*   margin-top: 10px;
+    margin-bottom: 10px; */
+}
+.display__skills--element.hard {
+  padding-left: 5vh;
+  padding-right: 5vh;
+}
+.display__skills--element.soft {
+}
+.skill {
+  width: 90%;
+  height: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: start;
+  align-items: center;
+  gap: 5%;
+  text-align: start;
+}
+.skill img {
+  max-width: 50px;
+  width: 20%;
+  height: 100%;
+
+  /* filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.6)); */
+  object-fit: cover;
+
+  transition: all 0.5s ease;
+}
+.display__skills--element > img {
+  max-width: 30px;
+  width: 20%;
+  height: 100%;
+  padding: 0px;
+  filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.6));
+  object-fit: cover;
+
+  transition: all 0.5s ease;
+}
+.display__skills--element > img:hover {
+  filter: none;
+}

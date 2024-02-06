@@ -1,0 +1,46 @@
+/* Training Section General Syles */
+.training__container {
+  display: flex;
+  flex-flow: row;
+}
+
+/* Article Styles in Training Section*/
+.training.article__container {
+  background-color: rgba(46, 214, 0, 0.297);
+}
+.training.article__title {
+  color: var(--accent2-color);
+}
+.training.article__subtitle {
+  color: var(--accent1-color);
+}
+.training.article__content {
+  color: var(--accent3-color);
+}
+.training.article__display {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+}
+
+.display__training {
+  width: 90%;
+  height: 70%;
+  background-color: rgba(130, 14, 14, 0.692);
+  border-radius: 15px;
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.display__training--element {
+  background-color: rgb(207, 74, 74);
+  width: 45%;
+  height: 90%;
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}

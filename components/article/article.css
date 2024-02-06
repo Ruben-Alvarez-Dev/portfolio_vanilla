@@ -1,0 +1,28 @@
+.article__container {
+  box-sizing: border-box;
+  background-color: rgba(250, 235, 215, 0.05);
+  width: 100%;
+  gap: 0;
+  border-radius: 20px;
+  border: 1px solid var(--accent3-color);
+}
+.about.article__container {
+  box-sizing: border-box;
+  background-color: rgba(217, 0, 0, 0.297);
+}
+.article__title {
+  box-sizing: border-box;
+  color: var(--accent1-color);
+}
+.article__subtitle {
+  box-sizing: border-box;
+  color: var(--accent2-color);
+}
+.article__content {
+  box-sizing: border-box;
+  color: var(--main-color);
+}
+.article__display {
+  border: 1px solid var(--accent1-color);
+  border-radius: 20px;
+}

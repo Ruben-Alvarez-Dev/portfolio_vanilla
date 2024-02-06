@@ -1,0 +1,74 @@
+@media (orientation: portrait) {
+  main {
+    scroll-snap-type: none;
+  }
+  .section {
+    height: auto;
+  }
+  .section.about {
+    height: 90vh;
+  }
+  .display__about {
+    flex-flow: column nowrap;
+  }
+  .display__about--element {
+    padding: 0;
+  }
+  .display__projects {
+    flex-flow: column nowrap;
+    gap: 5vh;
+  }
+  .display__projects--element {
+    width: 100%;
+    height: 80%;
+  }
+  .display__projects--element > img {
+    width: 100%;
+    height: 70%;
+  }
+  .display__skills {
+    flex-flow: column nowrap;
+  }
+  .display__skills--element {
+    width: 95%;
+  }
+
+  .display__skills--element.list.soft {
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 85%;
+  }
+
+  .skill {
+    flex-flow: column nowrap;
+    padding: 5% 20% 5% 20%;
+    text-align: center;
+  }
+  .element__title {
+    font-size: xx-large;
+  }
+  .element__content {
+    width: 100%;
+    height: 100%;
+    font-size: xx-large;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    padding-bottom: 5%;
+  }
+  .element__content img {
+    height: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.6));
+    transition: all 0.5s ease;
+  }
+  .element__content img:hover {
+    filter: none;
+  }
+}
